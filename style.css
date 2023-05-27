@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    background-color: rgba(245, 245, 226, 1);
+    height: 40px;
+    left: 0px;
+    top: 0px;
+}
+
+li a {
+    text-decoration: none;
+}
+
+a {
+    color:coral;
+    font-weight: bold;
+}
+
+.home {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5 rem;
+    align-items:center;
+    background-color: rgba(245, 245, 226, 1);
+    align-items: center;
+}
+
+
+.home .fotoaku img {
+    max-width: 100%;
+    width: 80%;
+    border-radius: 30%;
+    height: auto;
+    align-items: flex-end;
+    float: right;
+}
+
+
+.home .hello h1 {
+    font-size: 25px;
+    text-transform: uppercase;
+    color:chocolate;
+    text-align: center;
+    line-height: 1.7;
+}
+
+.home .hello h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color:darkcyan;
+    text-align: center;
+    line-height: 1.7;
+}
+
+.home .hello h3 {
+    font-size: 25px;
+    text-transform:lowercase;
+    color:gold;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.7;
+}
+
+.home .hello p {
+    font-size: 25px;
+    font-weight: normal;
+    line-height: normal;
+    color:darkcyan;
+    padding: 1rem, 0;
+    text-align: center;
+    line-height: 1.7;
+}
+
+section {
+    padding: 20px 10%;
+    position: relative;
+}
+
+.education {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 1.5rem;
+    align-items: center;
+    background-color:aliceblue
+}
+
+.graduation img {
+    max-width: 100%;
+    width: 350px;
+    height: auto;
+}
+
+.edu h5 {
+    font-weight: 600;
+    font-size: x-large;
+    line-height: 1.7;
+    color:cornflowerblue;
+
+}
+
+.edu h6 {
+    font-weight: 600;
+    font-size: x-large;
+    line-height: 1.7;
+    color:blueviolet;
+}
+
+.edu h7 {
+    font-weight: 600;
+    font-size: x-large;
+    line-height: 1.7;
+    color:darkslateblue;
+}
+
+.edu h8 {
+    font-weight: 600;
+    font-size: x-large;
+    line-height: 1.7;
+    color:deepskyblue;
+}
+
+.education .edu li {
+    list-style-type: circle;
+    display:list-item;
+    color:darkgoldenrod;
+}
+
+.project {
+    background-color:azure;
+}
+
+.background {
+    background-image: url("camera.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 450px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading h9 {
+    font-weight: 600;
+    line-height: 1.8;
+    font-size: x-large;
+    color: midnightblue;
+}
+
+.heading p {
+    font-size: large;
+    line-height: 1.8;
+    color: goldenrod;
+    font-weight: 300;
+}
+
+.gambar-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    grid-gap: 1.5rem;
+    align-items: center;
+}
+.gambar {
+    position: relative;
+    margin-top: 4rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.gambar-img img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50px;
+}
+
+.gambar h10 {
+    font-size: large;
+    font-weight: 600;
+    line-height: 2.5;
+    text-align: center;
+}
+

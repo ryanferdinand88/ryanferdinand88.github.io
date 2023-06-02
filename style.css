@@ -62,14 +62,15 @@ a {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1.5 rem;
     align-items:center;
-    background-color: rgba(245, 245, 226, 1);
+    background-color: bisque;
     align-items: center;
+    justify-content: center;
 }
 
 
 .home .fotoaku img {
     max-width: 100%;
-    width: 80%;
+    width: 70%;
     border-radius: 30%;
     height: auto;
     align-items: flex-end;
@@ -116,6 +117,7 @@ a {
 section {
     padding: 20px 10%;
     position: relative;
+    background-color: rgba(245, 245, 226, 1);
 }
 
 .education {
@@ -123,7 +125,8 @@ section {
     grid-template-columns: repeat(2, 2fr);
     grid-gap: 1.5rem;
     align-items: center;
-    background-color:aliceblue
+    background-color:bisque;
+    justify-content: center;
 }
 
 .graduation img {
@@ -164,20 +167,12 @@ section {
 .education .edu li {
     list-style-type: circle;
     display:list-item;
-    color:darkgoldenrod;
+    color:darkblue;
 }
 
 .project {
-    background-color:azure;
+    background-color:bisque;
 }
-
-/*.background {
-    background-image: url("camera.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: 450px;
-}*/
 
 .heading {
     text-align: center;
@@ -203,6 +198,7 @@ section {
     grid-gap: 1.5rem;
     align-items: center;
 }
+
 .gambar {
     position: relative;
     margin-top: 4rem;
@@ -243,7 +239,6 @@ section {
 .gambar-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, auto));
-    grid-gap: 1.5rem;
     align-items: center;
 }
 .gambar2 {
@@ -290,6 +285,11 @@ section {
     text-align: center;
     font-weight: bolder;
     font-size: x-large;
+}
+
+.project2 {
+    padding-left: 200px;
+    background-color: bisque;
 }
 
 .contact-section {
@@ -355,10 +355,10 @@ section {
     border: none;
     outline: none;
     width: 100%;
-    padding: 18px;
+    padding: 25px;
     font-size: medium;
     font-weight: bold;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
     border-radius: 1rem;
 }
 
@@ -368,4 +368,19 @@ section {
     font-size: 15px;
     font-weight: bold;
     letter-spacing: 1px;
+}
+
+.icon {
+    height: 100px;
+    background-color: bisque;
+}
+
+.icon .contact-icon {
+    margin-right: 410px;
+    margin-left: 410px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    transform: scale(1.01) translateY(-5px);
 }

@@ -345,12 +345,13 @@ section {
     color: aqua;
 }
 
-.contact-form form {
-    position: relative;
-    display:grid;
+.form {
+   background-color:bisque;
 }
 
-.contact-form form input, form textarea {
+.form .contact-form form input, form textarea {
+    justify-content: center;
+    align-items: center;
     border: none;
     outline: none;
     width: 100%;
@@ -358,7 +359,7 @@ section {
     font-size: medium;
     font-weight: bold;
     margin-bottom: 0.5rem;
-    border-radius: 0.5rem;
+    border-radius: 1rem;
 }
 
 .last-text p {

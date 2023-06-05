@@ -31,7 +31,7 @@ nav {
     top: 0;
     width: 100%;
     z-index: 1000;
-    background-color: rgba(245, 245, 226, 1);
+    background-color:none;
     height: 50px;
     left: 0px;
     top: 0px;
@@ -39,7 +39,6 @@ nav {
     justify-content: space-between;
     padding: 20px 150px;
     align-items: center;
-    border-radius: 10px;
 }
 
 nav a:hover {
@@ -53,7 +52,7 @@ li a {
 
 a {
     color:coral;
-    font-weight: bold;
+    font-weight:bolder;
 }
 
 .home {
@@ -62,9 +61,14 @@ a {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1.5 rem;
     align-items:center;
-    background-color: bisque;
+    background-color: honeydew;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    display: grid;
     align-items: center;
-    justify-content: center;
 }
 
 
@@ -108,7 +112,7 @@ a {
     font-size: 25px;
     font-weight: normal;
     line-height: normal;
-    color:darkcyan;
+    color:darkslateblue;
     padding: 1rem, 0;
     text-align: center;
     line-height: 1.7;
@@ -125,8 +129,14 @@ section {
     grid-template-columns: repeat(2, 2fr);
     grid-gap: 1.5rem;
     align-items: center;
-    background-color:bisque;
-    justify-content: center;
+    background-color:honeydew ;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    align-items: center;
 }
 
 .graduation img {
@@ -171,7 +181,7 @@ section {
 }
 
 .project {
-    background-color:bisque;
+    background-color:honeydew;
 }
 
 .heading {
@@ -197,6 +207,7 @@ section {
     grid-template-columns: repeat(auto-fit, minmax(220px, auto));
     grid-gap: 1.5rem;
     align-items: center;
+    justify-content: center;
 }
 
 .gambar {
@@ -212,13 +223,13 @@ section {
 .gambar-img img {
     width: 220px;
     height: 220px;
-    border-radius: 50px;
+    border-radius: 40px;
 }
 
 .gambar h10 {
     font-size: large;
     font-weight: 600;
-    line-height: 2;
+    line-height: 2.5;
     text-align: center;
 }
 
@@ -232,15 +243,19 @@ section {
 .heading p {
     font-size: large;
     line-height: 1.8;
-    color: goldenrod;
+    color:darkgoldenrod;
     font-weight: 300;
+    padding-top: 30px;
 }
 
-.gambar-container {
+.gambar-container2 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, auto));
     align-items: center;
+    justify-content: center;
+    grid-gap: 1.5rem;
 }
+
 .gambar2 {
     position:relative;
     margin-top: 4rem;
@@ -251,53 +266,70 @@ section {
     justify-content: center;
 }
 
-.gambar-img img {
+.gambar-img2 img {
     width: 220px;
     height: 220px;
-    border-radius: 50px;
+    border-radius: 40px;
 }
 
-.gambar h11 {
+.gambar2 h11 {
     font-size: large;
     font-weight: 600;
     line-height: 2;
     text-align: center;
+    color: midnightblue;
 }
 
 .text2 {
     text-align: center;
     font-weight: bolder;
     font-size: x-large;
+    color: midnightblue;
 }
 .text2 h14 {
     text-align: center;
     font-weight: bold;
-    font-size:medium
+    font-size:medium;
+    color: midnightblue;
 }
 
 .text1 {
     text-align: center;
     font-weight: bolder;
     font-size: x-large;
+    color: midnightblue;
 }
 
 .text3 {
     text-align: center;
     font-weight: bolder;
     font-size: x-large;
+    color: midnightblue;
 }
 
 .project2 {
-    padding-left: 200px;
-    background-color: bisque;
+    background-color: honeydew;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    align-items: center;
 }
 
 .contact-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    background-color: bisque;
-    justify-content: center;
+    background: url(bg2.png);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    align-items: center;
 }
 
 .contact-text h15 {
@@ -346,7 +378,14 @@ section {
 }
 
 .form {
-   background-color:bisque;
+  background-color: honeydew;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  align-items: center;
 }
 
 .form .contact-form form input, form textarea {
@@ -372,7 +411,7 @@ section {
 
 .icon {
     height: 100px;
-    background-color: bisque;
+    background-color: rgba(245, 245, 226, 1);
 }
 
 .icon .contact-icon {

@@ -51,7 +51,7 @@ li a {
 }
 
 a {
-    color:coral;
+    color:purple;
     font-weight:bolder;
 }
 
@@ -61,7 +61,7 @@ a {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1.5 rem;
     align-items:center;
-    background-color: honeydew;
+    background: url(overhead-view-coffee-cup-keyboard-camera-paper-white-background.jpg);
     width: 100%;
     height: 100vh;
     position: relative;
@@ -129,14 +129,7 @@ section {
     grid-template-columns: repeat(2, 2fr);
     grid-gap: 1.5rem;
     align-items: center;
-    background-color:honeydew ;
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    background-size: cover;
-    background-position: center;
-    display: grid;
-    align-items: center;
+    background-color:honeydew;
 }
 
 .graduation img {
@@ -309,27 +302,13 @@ section {
 
 .project2 {
     background-color: honeydew;
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    background-size: cover;
-    background-position: center;
-    display: grid;
-    align-items: center;
 }
 
 .contact-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    background: url(bg2.png);
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    background-size: cover;
-    background-position: center;
-    display: grid;
-    align-items: center;
+    background-color: honeydew;
 }
 
 .contact-text h15 {
@@ -379,13 +358,6 @@ section {
 
 .form {
   background-color: honeydew;
-  width: 100%;
-  height: 100vh;
-  position: relative;
-  background-size: cover;
-  background-position: center;
-  display: grid;
-  align-items: center;
 }
 
 .form .contact-form form input, form textarea {

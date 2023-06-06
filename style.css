@@ -23,6 +23,7 @@ ul {
     font-weight:bold;
     font-size: x-large;
     transform: scale(1.01) translateY(-5px);
+    padding-top: 20px;
 }
 
 nav {

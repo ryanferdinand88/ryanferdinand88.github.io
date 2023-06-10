@@ -5,7 +5,7 @@
     scroll-behavior: smooth;
     list-style: none;
     text-decoration: none;
-    font-family: 'Quicksand', sans-serif;
+    font-family:'Century Gothic', 'Arial Narrow', Arial, sans-serif;
 }
 
 li {
@@ -23,7 +23,9 @@ ul {
     font-weight:bold;
     font-size: x-large;
     transform: scale(1.01) translateY(-5px);
-    padding-top: 20px;
+    padding-top: 8px;
+    font-size: 35px;
+    color: darkcyan;
 }
 
 nav {
@@ -31,8 +33,8 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1000;
-    background-color:none;
+    z-index: 2;
+    background-color:floralwhite;
     height: 50px;
     left: 0px;
     top: 0px;
@@ -40,6 +42,7 @@ nav {
     justify-content: space-between;
     padding: 20px 150px;
     align-items: center;
+    font-size: 22px;
 }
 
 nav a:hover {
@@ -52,7 +55,7 @@ li a {
 }
 
 a {
-    color:purple;
+    color: darkcyan;
     font-weight:bolder;
 }
 
@@ -60,9 +63,9 @@ a {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    background-color: honeydew;
     grid-gap: 1.5 rem;
     align-items:center;
-    background: url(overhead-view-coffee-cup-keyboard-camera-paper-white-background.jpg);
     width: 100%;
     height: 100vh;
     position: relative;
@@ -76,19 +79,20 @@ a {
 .home .fotoaku img {
     max-width: 100%;
     width: 70%;
-    border-radius: 30%;
+    border-radius: 20%;
     height: auto;
-    align-items: flex-end;
+    align-items:center;
     float: right;
+    justify-content: center;
 }
-
 
 .home .hello h1 {
     font-size: 25px;
     text-transform: uppercase;
-    color:chocolate;
+    color:darkcyan;
     text-align: center;
     line-height: 1.7;
+    font-size: 28px;
 }
 
 .home .hello h2 {
@@ -97,6 +101,7 @@ a {
     color:darkcyan;
     text-align: center;
     line-height: 1.7;
+    font-size: 35px;
 }
 
 .home .hello h3 {
@@ -107,15 +112,16 @@ a {
     font-weight: bold;
     font-style: italic;
     line-height: 1.7;
+    font-size: 35px;
 }
 
 .home .hello p {
     font-size: 25px;
     font-weight: normal;
     line-height: normal;
-    color:darkslateblue;
+    color:darkcyan;
     padding: 1rem, 0;
-    text-align: center;
+    text-align:justify;
     line-height: 1.7;
 }
 
@@ -143,7 +149,7 @@ section {
     font-weight: 600;
     font-size: x-large;
     line-height: 1.7;
-    color:cornflowerblue;
+    color:darkcyan;
 
 }
 
@@ -151,27 +157,27 @@ section {
     font-weight: 600;
     font-size: x-large;
     line-height: 1.7;
-    color:blueviolet;
+    color:darkcyan;
 }
 
 .edu h7 {
     font-weight: 600;
     font-size: x-large;
     line-height: 1.7;
-    color:darkslateblue;
+    color:darkcyan;
 }
 
 .edu h8 {
     font-weight: 600;
     font-size: x-large;
     line-height: 1.7;
-    color:deepskyblue;
+    color:darkcyan;
 }
 
 .education .edu li {
     list-style-type: circle;
     display:list-item;
-    color:darkblue;
+    color:darkcyan;
 }
 
 .project {
@@ -186,13 +192,13 @@ section {
     font-weight: 600;
     line-height: 1.8;
     font-size: x-large;
-    color: midnightblue;
+    color: darkcyan;
 }
 
 .heading p {
     font-size: large;
     line-height: 1.8;
-    color: goldenrod;
+    color: darkcyan;
     font-weight: 300;
 }
 
@@ -225,19 +231,20 @@ section {
     font-weight: 600;
     line-height: 2.5;
     text-align: center;
+    color: darkcyan;
 }
 
 .heading h12 {
     font-weight: 600;
     line-height: 1.8;
     font-size: x-large;
-    color: midnightblue;
+    color: darkcyan;
 }
 
 .heading p {
     font-size: large;
     line-height: 1.8;
-    color:darkgoldenrod;
+    color:darkcyan;
     font-weight: 300;
     padding-top: 30px;
 }
@@ -271,7 +278,7 @@ section {
     font-weight: 600;
     line-height: 2;
     text-align: center;
-    color: midnightblue;
+    color: darkcyan;
 }
 
 .text2 {
@@ -279,7 +286,9 @@ section {
     font-weight: bolder;
     font-size: x-large;
     color: midnightblue;
+    font-size: 35px;
 }
+
 .text2 h14 {
     text-align: center;
     font-weight: bold;
@@ -292,6 +301,7 @@ section {
     font-weight: bolder;
     font-size: x-large;
     color: midnightblue;
+    font-size: 35px;
 }
 
 .text3 {
@@ -299,6 +309,7 @@ section {
     font-weight: bolder;
     font-size: x-large;
     color: midnightblue;
+    font-size: 35px;
 }
 
 .project2 {
@@ -316,18 +327,21 @@ section {
     margin: 15px 0;
     font-size: 30px;
     font-weight: bold;
+    color: darkcyan;
 }
 
 .contact-text h17 {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     line-height: 2;
+    color: gold;
 }
 
 .contact-text h16 {
     margin: 15px 0;
     font-size: 30px;
     font-weight: bold;
+    color: darkcyan;
 }
 
 .contact-text p {
@@ -336,6 +350,7 @@ section {
     font-weight: bold;
     line-height: 30px;
     margin-bottom: 2rem;
+    color: darkcyan;
 }
 
 .contact-list {
@@ -350,6 +365,7 @@ section {
 
 .contact-list li a {
     font-weight: bold;
+    color: darkcyan;
 }
 
 .contact-list li a:hover {
@@ -377,9 +393,10 @@ section {
 .last-text p {
     text-align: center;
     padding: 15px;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: bold;
     letter-spacing: 1px;
+    color: darkcyan;
 }
 
 .icon {
